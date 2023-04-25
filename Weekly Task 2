@@ -1,0 +1,16 @@
+############################################################################
+# Weekly Tasks 02
+############################################################################
+
+amount1=int(input("Enter amount1 (in cent):"))
+amount2=int(input("Enter amount2 (in cent):"))
+
+amount_total=amount1+amount2
+
+euro=amount_total/100
+
+print(f"The sum of these is €{euro}")
+
+
+# References:
+    # https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/
